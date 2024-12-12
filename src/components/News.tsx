@@ -29,9 +29,9 @@ const News = () => {
 
   return (
     <div>
-      <Container>
-        <h2>New Articles!</h2>
-        <Row className="justify-content-center">
+      <Container className="m-3">
+        <h2 className="text-center m-4">New Articles!</h2>
+        <Row className="justify-content-center g-3">
           {news &&
             news.results.map((n, i) => {
               return (
