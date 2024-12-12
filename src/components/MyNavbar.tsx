@@ -14,7 +14,7 @@ function MyNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link to={'/'} className="nav-link">
-              <Nav.Link>Home</Nav.Link>
+              <div>Home</div>
             </Link>
           </Nav>
         </Navbar.Collapse>
